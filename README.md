@@ -6,9 +6,9 @@ A propriedade border-radius pode ter vários valores alterados. Visualize como a
 
 ## Histórias de usuário
 
--   [ ] O usuário pode ver um box que tem uma propriedade `border-radius` aplicada a ela
--   [ ] O usuário pode alterar os 4 valores `border-radius` que são aplicados à caixa (top-left, top-right, bottom-left, bottom-right)
--   [ ] O usuário pode copiar o CSS resultante para a área de transferência
+-   [X] O usuário pode ver um box que tem uma propriedade `border-radius` aplicada a ela
+-   [X] O usuário pode alterar os 4 valores `border-radius` que são aplicados à caixa (top-left, top-right, bottom-left, bottom-right)
+-   [X] O usuário pode copiar o CSS resultante para a área de transferência
 
 ## Recursos bônus
 
