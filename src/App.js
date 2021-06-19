@@ -1,9 +1,9 @@
 import React from 'react';
-import ShapeArea from './components/ShapeArea';
+import Main from './components/Main';
 import './style.css';
 
 function App() {
-  return <ShapeArea />;
+  return <Main />;
 }
 
 export default App;
