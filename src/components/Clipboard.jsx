@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-const clipboardInput = document.getElementById('clipboardInput');
-
 function Clipboard({
   borderTopLeftRadius,
   borderTopRightRadius,
@@ -11,31 +9,25 @@ function Clipboard({
   borderBottomRightRadius,
 }) {
   function updateClipboardInput() {
+    const clipboardInput = document.getElementById('clipboardInput');
     clipboardInput.value = `border-radius: ${borderTopLeftRadius} ${borderTopRightRadius} ${borderBottomRightRadius} ${borderBottomLeftRadius};`;
   }
 
   function copyCss() {
+    const clipboardInput = document.getElementById('clipboardInput');
     updateClipboardInput();
     clipboardInput.select();
-    document.execCommand("copy");
+    document.execCommand('copy');
   }
 
   return (
-    <div className="row d-flex flex-column justify-content-between align-items-center my-4 w-50">
-      <input
-        className="form-control form-control-lg w-100"
-        type="text"
-        name="clipboardInput"
-        id="clipboardInput"
-      />
-      <button
-        type="button"
-        id="copyCSS"
-        className="btn btn-lg my-2"
-        onClick={() => copyCss()}
-      >
-        Gerar e Copiar CSS
-      </button>
+    <div id="Clipboard">
+      <div className="component-container" id="clipboard-container">
+        <input type="text" name="clipboardInput" id="clipboardInput" />
+        <button type="button" id="copyCSS" onClick={() => copyCss()}>
+          Gerar e Copiar CSS
+        </button>
+      </div>
     </div>
   );
 }
