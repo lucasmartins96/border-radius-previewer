@@ -1,7 +1,5 @@
 # Border-radius Previewer
 
-![aplicação pronta](images/border-radius-previewer.gif)
-
 **Nível:** 1-Iniciante
 
 A propriedade border-radius pode ter vários valores alterados. Visualize como a forma aparece ao alterar esses valores.
@@ -25,6 +23,9 @@ A primeira versão da aplicação foi desenvolvida com HTML, CSS e JS (verificar
 - ES Lint
 
 ## My app
+
+![aplicação pronta](images/border-radius-previewer.gif)
+
 ### [border-radius previewer](https://lucasmartins96.github.io/border-radius-previewer/)
 
 
