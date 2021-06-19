@@ -9,8 +9,7 @@ function Shape({
   borderBottomRightRadius,
 }) {
   return (
-    <div
-      className="row my-4"
+    <canvas
       id="shape"
       style={{
         borderTopLeftRadius,
