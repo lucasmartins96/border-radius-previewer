@@ -1,4 +1,4 @@
-import React /* , { Component } */ from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import changeSideBorder from '../redux/actions';
@@ -6,8 +6,7 @@ import changeSideBorder from '../redux/actions';
 function Input({ sideBorder, borderRadius, updateBorderRadius }) {
   return (
     <input
-      type="number"
-      className="form-control"
+      type="text"
       name={sideBorder}
       value={borderRadius[sideBorder]}
       onChange={({ target: { name, value } }) =>
