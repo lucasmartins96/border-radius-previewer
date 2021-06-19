@@ -20,7 +20,7 @@ A propriedade border-radius pode ter vários valores alterados. Visualize como a
 -   [Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
 
 ## My app
-### [border-radius previewer]()
+### [border-radius previewer](https://lucasmartins96.github.io/border-radius-previewer/)
 
 
 #### [retornar ao my-app-ideas](https://github.com/lucasmartins96/my-app-ideas/tree/main/beginner)
