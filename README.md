@@ -1,5 +1,8 @@
 # Border-radius Previewer
 
+![alt text][gif]
+[gif]: border-radius-previewer.gif "exibição da página do projeto"
+
 **Nível:** 1-Iniciante
 
 A propriedade border-radius pode ter vários valores alterados. Visualize como a forma aparece ao alterar esses valores.
@@ -14,10 +17,13 @@ A propriedade border-radius pode ter vários valores alterados. Visualize como a
 
 -   [ ] O usuário pode alterar todos os 8 valores possíveis do border-radius, a fim de criar uma forma complexa
 
-## Links e recursos úteis
+## Desenvolvimento
 
--   [CSS3 Borders](https://www.w3schools.com/css/css3_borders.asp)
--   [Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+A primeira versão da aplicação foi desenvolvida com HTML, CSS e JS (verificar branch v1) e com o intuito de praticar novos conhecimentos, desenvolvi a segunda versão com as seguintes ferramentas:
+- React
+- Redux
+- Prettier
+- ES Lint
 
 ## My app
 ### [border-radius previewer](https://lucasmartins96.github.io/border-radius-previewer/)
