@@ -1,7 +1,6 @@
 # Border-radius Previewer
 
-![alt text][gif]
-[gif]: border-radius-previewer.gif "exibição da página do projeto"
+![aplicação pronta](images/border-radius-previewer.gif)
 
 **Nível:** 1-Iniciante
 
